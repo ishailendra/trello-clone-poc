@@ -1,0 +1,37 @@
+.card {
+  background-color: rgb(224, 212, 212);; /*rgb(228, 220, 220); */
+  border: 2px solid rgb(224, 212, 212);
+  padding: 1rem;
+  margin: 1rem 1rem 0rem 1rem;
+  border-radius: 1rem;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+.card-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rmdefault {
+  border: none;
+  outline: none;
+}
+
+.title {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.placeholder {
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: #646161;
+}

@@ -1,0 +1,26 @@
+.list-section {
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+  margin: 2rem 2rem;
+  /* overflow-x: scroll; */
+}
+
+.add-section {
+  padding: 2rem 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #6d6d6d;
+}

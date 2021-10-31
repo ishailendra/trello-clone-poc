@@ -1,0 +1,11 @@
+.topbar {
+  background-color: rgb(128, 114, 223);
+  font-family: "Montserrat", sans-serif;
+  height: 4rem;
+  display: flex;
+}
+
+.appname {
+  font-size: 1.75rem;
+  padding: 0.75rem;
+}

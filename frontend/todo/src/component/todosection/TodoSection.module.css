@@ -1,0 +1,58 @@
+/* TO_FIX: border color and box shadow */
+.todolist {
+  border: 2px solid rgb(34, 31, 31);
+  border-radius: 1rem;
+  width: 18rem;
+  box-shadow: 0 0 15px black;
+  min-height: 7rem;
+  /* overflow: hidden; */
+}
+
+.title {
+  padding: 0.4rem 0.75rem;
+  background-color: rgb(128, 114, 223);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem 1rem 0 0;
+}
+
+/* #e7f2f8 */
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  min-height: inherit;
+  position: relative;
+  padding-bottom: 1rem;
+  max-height: 70vh;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.add-btn {
+  position: sticky;
+  bottom: 0;
+  left: 16rem;
+  width: fit-content;
+  align-self: flex-end;
+}
+
+.placeholder {
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: #646161;
+}
+
+.rmdefault {
+  border: none;
+  outline: none;
+}
+
+.somestyle {
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/* .container-overflow {
+  overflow-y: scroll;
+} */

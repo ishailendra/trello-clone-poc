@@ -1,0 +1,9 @@
+.list-section {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.add-section {
+  padding: 2rem 1rem;
+}

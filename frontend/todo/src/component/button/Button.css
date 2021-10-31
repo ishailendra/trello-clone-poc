@@ -1,0 +1,208 @@
+/* Todo Add Btn */
+
+span#add_card.material-icons-outlined {
+  font-size: 1.5rem;
+  color: white;
+  position: relative;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  background-color: rgb(128, 114, 223);
+  transition: color 0.2s ease, background-color 0.2s ease, transform 0.3s ease;
+  -webkit-animation: revrotatebtn 0.2s ease;
+  -moz-animation: revrotatebtn 0.2s ease;
+  animation: revrotatebtn 0.2s ease;
+}
+
+span#add_card.material-icons-outlined:hover {
+  -webkit-animation: rotatebtn 0.2s ease;
+  -moz-animation: rotatebtn 0.2s ease;
+  animation: rotatebtn 0.2s ease;
+}
+
+/*
+span.material-icons-outlined:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border: solid 2px;
+  transform: scale(0.8);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+
+span.material-icons-outlined:hover:after {
+  transform: scale(1);
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.19), 6px 0 6px rgba(0, 0, 0, 0.23);
+}
+
+span.material-icons-outlined {
+    background-color: #d59acb;
+} */
+
+span#add_card.material-icons-outlined:hover {
+  color: white;
+  background-color: rgb(128, 114, 223);
+}
+
+span#add_card.material-icons-outlined:after {
+  border-color: #d59acb;
+}
+
+@-moz-keyframes rotatebtn {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+@-webkit-keyframes rotatebtn {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+@keyframes rotatebtn {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+
+@-moz-keyframes revrotatebtn {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-90deg);
+  }
+}
+@-webkit-keyframes revrotatebtn {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-90deg);
+  }
+}
+@keyframes revrotatebtn {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-90deg);
+  }
+}
+
+/* Add List Section Btn */
+span#add_section.material-icons {
+  font-size: 1.5rem;
+  color: black;
+  position: relative;
+  /* border-radius: 50%; */
+  padding: 5px;
+  margin: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  transition: color 0.2s ease, background-color 0.2s ease, transform 0.3s ease;
+}
+
+span#add_section.material-icons:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border: solid 2px;
+  transform: scale(1);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  /* border-radius: 50%; */
+  transition: all 0.3s ease;
+}
+
+span#add_section.material-icons:hover {
+  transform: scale(1.2);
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.19), 6px 0 6px rgba(0, 0, 0, 0.23);
+}
+
+/* Section Delete */
+
+span#delete_forever.material-icons {
+  font-size: 1.5rem;
+  color: #4e0707;/* #c76565; */
+  position: relative;
+  /* border-radius: 50%; */
+  padding: 5px;
+  margin: 3px;
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); */
+  cursor: pointer;
+  transition: color 0.2s ease, background-color 0.2s ease, transform 0.3s ease;
+}
+
+span#delete_forever.material-icons:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  /* border: solid 2px; */
+  transform: scale(1);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  /* border-radius: 50%; */
+  transition: all 0.3s ease;
+}
+
+span#delete_forever.material-icons:hover {
+  transform: scale(1.2);
+  color: #3d0101;/* #c14343; */
+  /* box-shadow: 10px 0 20px rgba(0, 0, 0, 0.19), 6px 0 6px rgba(0, 0, 0, 0.23); */
+}
+
+/* Card Delete Btn */
+span#close_card.material-icons {
+  font-size: 1.5rem;
+  color: #c76565;
+  position: relative;
+  transform: scale(0.8);
+  /* border-radius: 50%; */
+  padding: 5px;
+  margin: 3px;
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); */
+  cursor: pointer;
+  transition: color 0.2s ease, background-color 0.2s ease, transform 0.3s ease;
+}
+
+span#close_card.material-icons:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  /* border: solid 2px; */
+  transform: scale(0.8);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  /* border-radius: 50%; */
+  transition: all 0.3s ease;
+}
+
+span#close_card.material-icons:hover {
+  transform: scale(1);
+  color: #c14343;
+  /* box-shadow: 10px 0 20px rgba(0, 0, 0, 0.19), 6px 0 6px rgba(0, 0, 0, 0.23); */
+}
+.del-pos {
+  position: relative;
+  top: -1rem;
+  right: -1rem;
+}
